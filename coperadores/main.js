@@ -62,3 +62,7 @@ console.log(edad>=18 && cc==true);//se deben cumplir las dos
 console.log(edad >=18 || cc==true);//se debe cumplir una de las dos
 //ejemplo de uso de NOT//
 console.log(cc1)//solo muestra que se esta negando
+
+
+//operador de apertura (...)
+

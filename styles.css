@@ -1,0 +1,19 @@
+*{
+    width: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	color: #666;
+	background: #f2f2f2; 
+	font-size: 1em;
+	line-height: 1.5em;
+	
+	padding-top: 10px; /* Relleno superior igual a la altura de la cabecera*/
+}
+
+h1 {
+    color: rgb(70, 59, 59);
+    padding: 10px;
+}
