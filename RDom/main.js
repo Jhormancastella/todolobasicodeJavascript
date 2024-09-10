@@ -9,11 +9,12 @@ const currentYear = new Date().getFullYear().toString();
 console.log(currentYear);
 
 input2.setAttribute("max", currentYear);
-
+///
 input3.addEventListener("click", () => {
-input1.setAttribute("type", "password");
+    input1.setAttribute("type", "password");
 });
 
+///
 input3.addEventListener("click", () => {
     const atributo = input1.getAttribute("type");
 
@@ -27,7 +28,18 @@ input3.addEventListener("click", () => {
         }, 2000)
     }
 });
-
+//para desbloquear el boton para enviar//
 input2.addEventListener("change",()=>{
     input3.toggleAttribute("disabled",false);
 })
+
+//version de luis //
+
+input2.addEventListener("change", () => {
+    const disabled = input3.toggleAttribute("disabled");
+    if (disabled = true) {
+    input3.toggleAttribute("disable", true)
+    } else if (disabled = false) {
+    input3.toggleAttribute("disable", false)
+    }
+});
