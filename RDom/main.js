@@ -1,4 +1,4 @@
-const input1 = document.getElementById("input1");
+/*const input1 = document.getElementById("input1");
 const input2 = document.getElementById("input2");
 const input3 = document.getElementById("input3");
 
@@ -43,3 +43,14 @@ input2.addEventListener("change", () => {
     input3.toggleAttribute("disable", false)
     }
 });
+
+*/
+
+function check() {
+    document.getElementById("cbox1").checked = true;
+  }
+  
+  function uncheck() {
+    document.getElementById("cbox1").checked = false;
+  }
+
