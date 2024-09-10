@@ -17,7 +17,15 @@
 
 //ejemplo breve de uso del local storage//
 
-gaurda_locaStorage();
+//gaurda_locaStorage();
+
+obtener_localStorage();
+
+function obtener_localStorage(){
+    let nombre = localStorage.getItem("nombre","gaurda_locaStorage");
+    console.log(nombre,gaurda_locaStorage);
+
+}
 
 function gaurda_locaStorage(){
     let persona1 ={
@@ -41,7 +49,7 @@ function gaurda_locaStorage(){
 
 
 //funciones//
-
+/*
 let Mikey = "juan"//es un string
 let Mvalue ={nombre:"jesus",edad:17};//Json.srringify(Mvalue) -> '[{"nombre:","jesus","edad: ","18"}]'
 let MiValue2 ={gatos:3,perro:1,pollos:2}
@@ -86,4 +94,4 @@ function verStorage(){
 function deleteAllStorage(){
     localStorage.clear();
 }
-
+*/
