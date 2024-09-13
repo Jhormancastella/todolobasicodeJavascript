@@ -1,0 +1,6 @@
+.number {
+    font-size: 16px; /* Tamaño base de la fuente */
+}
+.even {
+    font-weight: bold;
+}
